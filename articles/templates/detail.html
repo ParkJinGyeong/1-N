@@ -19,9 +19,11 @@
         </form>
     {% endfor %}
 
+    {% comment %}
     <p>댓글 출력 방법2</p>
     {% for comment in comments %}
         <li>{{comment.content}}</li>
     {% endfor %}
-
+    {% endcomment %}
+    
 {% endblock %}

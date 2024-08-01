@@ -21,3 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('articles/', include('articles.urls')),
 ]
+
+#프로젝트 단위로 url을 관리. 개별 앱 수정할 사항이 생기면, 개별 앱 url만 관리하면 됨
