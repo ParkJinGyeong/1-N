@@ -11,3 +11,5 @@ class Article(models.Model):
 class Comment(models.Model):
     content = models.TextField()
     article = models.ForeignKey(Article, on_delete=models.CASCADE)
+
+#article_id 는 자동으로 만들어줌 
